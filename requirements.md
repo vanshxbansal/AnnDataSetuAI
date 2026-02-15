@@ -29,7 +29,7 @@ Farmers often lack:
 
 ## 4. Scope
 
-### In Scope (Hackathon MVP)
+### In Scope
 1. Voice call flow (inbound via Twilio)
 2. Speech-to-text (ASR) to capture farmer query
 3. Intent detection:
@@ -49,12 +49,6 @@ Farmers often lack:
    - Voice call (TTS)
    - SMS fallback
 8. Farmer profile storage (phone number as key)
-
-### Out of Scope (for MVP)
-- Completing sales transactions or marketplace negotiation
-- Image-based disease diagnosis (optional future)
-- Deep IoT integrations
-- Large-scale multilingual training pipelines (we will rely on API + prompt + curated data)
 
 ---
 
@@ -164,7 +158,7 @@ Farmers often lack:
 
 ---
 
-## 9. Acceptance Criteria (Hackathon Demo Ready)
+## 9. Acceptance Criteria 
 - A live call can:
   1) Ask a crop issue in Hindi → receive spoken advisory
   2) Ask mandi prices → receive best nearby rates
@@ -173,11 +167,3 @@ Farmers often lack:
 - System demonstrates modular flow for adding more farmer services later
 
 ---
-
-## 10. Repository Checklist (Suggested)
-- /docs/requirements.md ✅
-- /docs/design.md ✅
-- README.md (setup + demo script)
-- .env.example
-- docker-compose.yml (optional)
-- Basic CI (optional)
