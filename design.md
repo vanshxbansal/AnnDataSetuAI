@@ -214,7 +214,7 @@ Outputs:
 
 ---
 
-## 11. Demo Script (Hackathon)
+## 11. Demo Script (Example)
 1. Call: “Mere tamatar ke patte peele ho gaye”
    - AI asks 1 follow-up
    - Gives advice + prevention tips

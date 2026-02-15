@@ -1,0 +1,15 @@
+[build]
+  publish = "."
+
+# Serve kisan.html at site root (rewrite, URL stays /)
+[[redirects]]
+  from = "/"
+  to = "/kisan.html"
+  status = 200
+
+# Proxy /api/chat to the Netlify function so frontend can POST /api/chat
+[[redirects]]
+  from = "/api/chat"
+  to = "/.netlify/functions/chat"
+  status = 200
+  force = true

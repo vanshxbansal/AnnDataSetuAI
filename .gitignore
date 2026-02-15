@@ -1,0 +1,4 @@
+# Do not commit API key; use Netlify env BEDROCK_API_KEY
+apikey.txt
+node_modules/
+.netlify/
