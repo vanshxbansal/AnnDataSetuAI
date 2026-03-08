@@ -2,3 +2,4 @@
 apikey.txt
 node_modules/
 .netlify/
+.env
